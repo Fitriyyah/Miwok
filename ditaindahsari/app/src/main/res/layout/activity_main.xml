@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:fontFamily="cursive"
+        android:text="Hi buddy! Welcome To My Page"
+        android:textColor="#FF007F"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Text_Biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Click Here"
+        android:textColor="#FF0000"
+        android:textSize="20sp"/>
+
+
+
+    <Button
+        android:id="@+id/Btn_Biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:text="My Profile"
+        android:textColor="#000080"/>
+
+
+
+    <TextView
+        android:id="@+id/Text_SosialMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Click Here"
+        android:textColor="#FF0000"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/Btn_SosialMedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="LIFE GOALS"
+        android:textColor="#000080"/>
+
+</LinearLayout>

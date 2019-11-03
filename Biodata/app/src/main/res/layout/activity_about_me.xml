@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgg"
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Back"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's be friend on social media!"
+        android:textColor="#fff"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:textSize="25dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name  :"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fitriyyah Shalhati"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Place of Birth :"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Muara Enim"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="May 17th, 1999"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ages"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20 years old"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Karet 2 Street number 19, Muara Enim"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

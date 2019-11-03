@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:id="@+id/gambar1"
+            android:src="@drawable/satu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            />
+        <TextView
+            android:id="@+id/teksa"
+            android:textSize="15sp"
+            android:textColor="#5E004E"
+            android:layout_toRightOf="@id/gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Menjadi Android Developer Expert"
+            />
+        <TextView
+            android:id="@+id/teksa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/gambar1"
+            android:layout_below="@id/teksa"
+            android:textSize="10sp"
+            android:text="Deadline 100 hari"
+            />
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/teksa2"
+            android:textColor="#EFEFEF"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#BE00AE"
+            android:text="MULAI BELAJAR"
+            />
+        <TextView
+            android:id="@+id/teksa3"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            android:textColor="#000000"
+            android:layout_below="@id/gambar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Modul"
+            />
+        <TextView
+            android:id="@+id/garis"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#000000"
+            android:layout_below="@id/teksa3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:id="@+id/teksa4"
+            android:layout_below="@id/garis"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Dicoding sebagai satu-satunya Google Authorized Training Partner di Indonesia telah melalui proses penyusunan kurikulum secara komprehensif. Semua modul telah diverifikasi langsung oleh Google untuk memastikan bahwa mteri yang diajarkan relevan dan sesuai dengan kebutuhan industri digital saat ini. Peserta kan belajar membangun aplikasi Android dengan materi Testing, Debugging, Application, Application UX, Fundamental Application Compontents, Persistent Data Storage dan Enhanced System Integratin."
+            />
+        <TextView
+            android:id="@+id/teksa5"
+            android:layout_below="@id/teksa4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:text="Daftar Modul"
+            />
+        <TextView
+            android:id="@+id/garis2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#000000"
+            android:layout_below="@id/teksa5"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:id="@+id/teksa6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis2"
+            android:textSize="15sp"
+            android:layout_margin="5dp"
+            android:text="Modul 0 : Introduction"
+            />
+        <TextView
+            android:id="@+id/garis3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#AEAEAE"
+            android:layout_below="@id/teksa6"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:id="@+id/teksa7"
+            android:layout_below="@id/garis3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="5dp"
+            android:text="Modul 1 : Teori 1"
+            />
+        <TextView
+            android:id="@+id/garis4"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#AEAEAE"
+            android:layout_below="@id/teksa7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:id="@+id/teksa8"
+            android:layout_below="@id/garis4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="5dp"
+            android:text="Latihan 1"
+            />
+        <TextView
+            android:id="@+id/garis5"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#AEAEAE"
+            android:layout_below="@id/teksa8"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+        <TextView
+            android:id="@+id/teksa9"
+            android:layout_below="@id/garis5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="5dp"
+            android:text="Bedah kode 1"
+            />
+
+        <TextView
+            android:id="@+id/garis6"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#AEAEAE"
+            android:layout_below="@id/teksa9"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+
+        <TextView
+            android:id="@+id/teksa10"
+            android:layout_below="@id/garis6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_margin="5dp"
+            android:text="Modul 2 Teori 2"
+            />
+
+        <TextView
+            android:id="@+id/garis7"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#AEAEAE"
+            android:layout_below="@id/teksa10"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

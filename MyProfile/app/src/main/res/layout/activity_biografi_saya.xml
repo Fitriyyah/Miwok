@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".BiografiSaya">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:background="#2B2B2C"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:id="@+id/btn_back"
+                android:textSize="10sp"
+                android:text="Back"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:background="#DFDFDF"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_marginBottom="10dp"
+            android:text="Tentang Saya"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tentang"
+            android:text="Halo Everyone! Perkenalkan nama saya Fitriyyah Shalihati. Bunga, orang-orang biasa memanggil saya. Jauh memang dari nama asli saya, tapi dari kecil keluarga sudah memanggil saya Bunga dan terbawa hingga lingkungan sekolah, sampai umur saya 20 tahun sekarang ini.Saya lahir di Muara Enim pada tanggal 17 Mei 1999. Iya, saya asal Muara Enim jadi bisa dibilang saya sekarang adalah anak rantau walau jaraknya tidak terlalu jauh. Di palembang, saya tinggal bersama kedua sepupu saya yang asalnya dari Muara Enim dan Tanjung Enim. Kami bertiga sebaya dan sama-sama lagi jadi seorang mahasiswa.  "/>
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Tentang Keluarga"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tentang"
+                android:text="Saya adalah anak kedua dari empat bersaudara, dari pasangan Ayah Ujang Amri dan Bunda Setiawati. Ayah saya bekerja di Dinas Perikanan Muara Enim, sedangkan Ibu saya bekerja di Akbid Muara Enim. Saya memiliki seorang Abang, namanya Naufal Hanif. Abang lahir di Muara Enim pada tanggal 17 Januari 1998. iyaaa, beda umur kami hanya satu tahun. Abang saya sekarang sedang berkuliah di Universitas Muhammadiyah Malang, jauh ya. Saya juga memiliki 2 orang adik, laki-laki dan perempuan. Adik saya yang laki-laki bernama Aufar Abdillah Amri, biasa dipanggil Adam. Jadi bukan saya sendiri yang memiliki nama panggilan jauh dari nama asli. Adam lahir di Palembang pada tanggal 24 Desember 2004. sekarang ia merupakan santri dari Pondok Modern Gontor 5 Putra Banyuwangi. Kemudian adik saya yang paling kecil namanya Arabella Ariqoh Amri, biasa dipanggil Bella. Bella lahir di Palembang, 30 Juli 2008. Bella sekarang duduk di kelas 6 SDIT Rabbani Muara Enim. Jadi, sekarang ini isi rumah di Muara Enim hanya Ayah, Bunda dan Bella.  "/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Riwayat Pendidikan"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tentang"
+                android:text="Saat kecil saya sempat tinggal di Palembang dan sekolah di TK Kesehatan Palembang bersama abang saya, dekat dengan tempat Bunda bekerja. Kemudian saya pindah kembali ke Muara Enim, sempat menganggur setahun setelah kemudian sekolah lagi di TK Perwanida Muara Enim yang tidak jauh dari rumah. Ketika berumur 6 tahun, saya memulai pendidikan di SDN 11 Muara Enim. Tempatnya juga tidak jauh dari rumah. Namun saat kelas 5 SD saya pindah rumah yang jaraknya agak jauh dari sekolah. kemudian setelah lulus saya melanjutkan pendidikan di SMPN 1 Muara Enim di tahun 2011. Saat SMP saya sempat ikut keanggotaan OSIS, ekskul Senam dan Voli. Selepas lulus dari SMP di tahun 2014, saya melanjutkan pendidikan di SMAN 1 Unggulan Muara Enim, SMA favorit di kota kecil saya. Saat SMA saya mengikuti organisasi Pramuka dan ekstrakurikuler Marching Band sebagai Color Guard. Saat itu juga saya pernah mengikuti lomba LTBB Pramuka, Gerak Jalan Pramuka, dan berbagai lomba Marching band dan Color Guard Contest mewakili SMA saya. Pada saat SMA kelas 3, saya tinggal di asrama sekolah karena memang setiap murid kelas 3 diwajibkan tinggal di asrama. Selama asrama, saya ada kegiatan bimbel malam untuk mempersiapkan diri menghadapi SBMPTN. Bimbel tersebut dilakukan selepas Sholat Isya berjamaah di masjid. Pada tahun 2017 saya lulus SMA. Itulah saat-saat dilema saya dalam memilih jurusan di perkuliahan yang diakhiri dengan lulusnya saya di jurusan Sistem Informasi Unsri jalur SBMPTN.  "/>
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                />
+
+    </LinearLayout>
+    </LinearLayout>
+</ScrollView>
